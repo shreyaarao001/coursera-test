@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 h1 {
@@ -10,8 +11,9 @@ h1 {
 }
 
 body {
-  background-image: url("background.jpg");
-  background-color: #FEF5CA;
+  /*background-image: url("background.jpg");*/
+  background-color: #494D5F;
+
 
 }
 
@@ -31,55 +33,52 @@ p {
 
 section {
   border: 1px solid black;
-  background-color: #00FF99;
+  background-color: #a0d2eb;
   width: 100%;
   height: auto;
   font-family: Helvetica;
   color: black;
-  position: relative;
+  position: center;
   overflow: auto;
 }
 
 #chicken {
-  border: 1px solid black;
+  
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
+  width: 100%;
   font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FFFF00;
+  
 }
 
 #beef {
-  border: 1px solid black;
+  
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
+  width: 100%;
   font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FF1439;
+  
 }
 
 #sushi {
-  border: 1px solid black;
+  
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
+  width: 100%;
   font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: #6495ED;
-  color: white;
+  
+  color: black;
   padding: 5px;
 }
 
@@ -106,7 +105,7 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: #a0d2eb;
   color: #FFFFFF;
 }
 
@@ -123,7 +122,7 @@ section {
 }
 
 .nav-brand {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 1.5em;
 }
 
@@ -136,6 +135,16 @@ hr {
 }
 
 .item {
-  color: white;
+  color: black;
   font-size: 1.2em;
+  opacity: .8;
+}
+
+#top{
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: right;
 }
